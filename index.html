@@ -1,0 +1,133 @@
+<html >
+    <head>
+        <title>Document</title>
+        <style>
+			body{
+					background:url('jpg.webp') no-repeat fixed;
+					background-size:cover;
+
+				}
+
+           #top{
+                height: 100px;
+                width: 100%;
+                background: white;
+		
+            }
+	#logo{
+			height:100px;
+			width:20%;
+			float:left;
+			background:red;
+			float:left;
+		}
+	#menu{
+			height:100px;
+			width:80%;
+			float:left;
+			background:white;
+		}
+		#menu ul {
+			list-style:none;
+			margin-left:100px;
+		
+		}
+		#menu ul li{
+			float:left;
+			font-size:25px;
+			margin:10px;
+			padding:10px;
+			background:red;
+		}
+		#menu ul li:hover{
+							background:black;
+							color:red;
+							
+						}
+		#menu ul li ul li{
+			display:none;
+			
+		}
+		#menu ul li:hover ul li{
+			display:block;
+			position:absolute;
+			float:none;
+		}
+            mainarea{
+                
+                height: 400px;
+                width: 100%;
+		background:red;
+            }
+            #library{
+                
+                height: 500px;
+                width: 100%;
+            }
+		.bg{
+			height:500px;
+			width:50%;
+		}
+		#left{
+			background: url('bb.jpg') ;
+			float:left;
+			background-size:cover;
+			
+		}
+		#right{
+			background:blue;
+			float:right;
+		}
+            #slide{
+                
+                height: 300px;
+                width: 100%;
+                background: blue;
+            }
+            #footer{
+                
+                height: 250px;
+                width: 100%;
+                background: rgb(199, 165, 16);
+            }
+        </style>
+    </head>
+    <body>
+	<div  id="top">
+		<div id="logo">
+		</div>
+		
+       	       <div id="menu"> 
+            		<ul>
+              			  <li>HOME</li>
+              			  <li>ABOUT
+						<ul>
+								<li>balram</li>
+								<li>pathak</li>
+								<li>from</li>
+								<li>palamu</li>
+						</ul>
+				</li>
+               			 <li>INFORMATION</li>
+           			     <li>GALLERY</li>
+               			 <li>CONTACT</li>
+         	       </ul>
+			
+    	     </div>
+	</div>
+
+        <div id="mainarea"></div>
+        <div id="library">
+			<div id="left" class="bg"></div>
+			<div id="right" class="bg"></div>
+	</div>
+        <div id="slide">
+            
+        </div>
+        <div id="footer">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </body>
+</html>
